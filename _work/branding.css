@@ -57,15 +57,44 @@ h5{
     top:1rem;
     width: 100%;
     background-color: red;
-    height: 5rem;
+    height: 7rem;
+}
+nav a:link{
+	display: inline-block;
+	background-color: #A6C771;
+	color: white;
+	padding: 1rem 1.25rem;
+	text-decoration: none;
+}
+nav a:visited {
+	display: inline-block;
+	background-color: #A6C771;
+	color: white;
+	padding: 1rem 1.25rem;
+	text-decoration: none;
+}
+nav a:hover {
+	display: inline-block;
+	background-color: blue;
+	color: #A6C771;
+	padding: 1rem 1.25rem;
+	text-decoration: none;
+}
+nav a:active {
+	display: inline-block;
+	background-color: blue;
+	color: #A6C771;
+	padding: 1rem 1.25rem;
+	text-decoration: none;
 }
 
 
-a:link {color:#D13B49;}      /* unvisited link */
-a:visited {color:#F9B372;}  /* visited link */
-a:hover {color:#A6C771;}  /* mouse over link */
-a:active {color:#A6C771;}  /* selected link */ 
-
+/*
+a:link {color:#D13B49;}      
+a:visited {color:#F9B372;}  
+a:hover {color:#A6C771;}  
+a:active {color:#A6C771;} 
+*/
 red #D13B49
 yellow #FFE24A
 orange #A6C771
