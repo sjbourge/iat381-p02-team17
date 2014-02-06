@@ -8,7 +8,7 @@ body {
 h1 {
 	font-size: 3rem;
 	font-family:"Noteworthy";
-	color: #D13B49;
+	color: black;
 	font: bold;
 	text-align:left;
 }
@@ -16,7 +16,7 @@ h1 {
 p{
 	font-family:"Noteworthy";
 	font-size: 1rem;
-	color: #D13B49;
+	color: black;
 
 }
 
@@ -68,18 +68,21 @@ h5{
 }
 
 .footer {
-    position:inherit;
+    position: fixed;
+    color: white;
     bottom:1rem;
     width: 100%;
-    background-color: #D13B49;
+    background-color: #9e4a0b;
     height: 5rem;
 }
 
 .header {
-    position:inherit;
+    position: fixed;
+    color: white;
+    top:1rem;
     width: 100%;
-    background-color: #D13B49;
-    height: 4.5rem;
+    background-color: #9e4a0b;
+    height: 7rem;
 }
 
 nav {
@@ -88,29 +91,29 @@ nav {
 
 nav a:link{
 	display: inline-block;
-	background-color: #A6C771;
-	color: white;
+	background-color: white;
+	color: black;
 	padding: 1rem 1.25rem;
 	text-decoration: none;
 }
 nav a:visited {
 	display: inline-block;
-	background-color: #A6C771;
-	color: white;
+	background-color: white;
+	color: black;
 	padding: 1rem 1.25rem;
 	text-decoration: none;
 }
 nav a:hover {
 	display: inline-block;
-	background-color: blue;
-	color: #A6C771;
+	background-color: #c475ac;
+	color: black;
 	padding: 1rem 1.25rem;
 	text-decoration: none;
 }
 nav a:active {
 	display: inline-block;
-	background-color: blue;
-	color: #A6C771;
+	background-color: gray;
+	color: black;
 	padding: 1rem 1.25rem;
 	text-decoration: none;
 }
