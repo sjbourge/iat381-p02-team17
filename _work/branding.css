@@ -4,7 +4,7 @@ body {
 }
 
 h1 {
-	font-size: 1.8rem;
+	font-size: 3rem;
 	font-family:"Noteworthy";
 	color: #D13B49;
 	font: bold;
@@ -22,18 +22,19 @@ p
 
 
 h2{
-
+	font-size: 2.6rem;
 }
 
 h3{
-
+	font-size: 2.2rem;
 }
 
 h4{
-
+	font-size: 1.8rem;
 }
 
 h5{
+	font-size: 1.4rem;
 	
 }
 .button {
@@ -43,6 +44,21 @@ h5{
     color: #D13B49;
     text-align: center;
 }
+.footer {
+    position:absolute;
+    bottom:1rem;
+    width: 100%;
+    background-color: gray;
+    height: 10rem;
+}
+.header {
+    position:absolute;
+    top:1rem;
+    width: 100%;
+    background-color: gray;
+    height: 20rem;
+}
+
 
 a:link {color:#D13B49;}      /* unvisited link */
 a:visited {color:#F9B372;}  /* visited link */
