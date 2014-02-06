@@ -5,7 +5,23 @@ body {
 
 h1 {
 	font-size: 2.5rem;
+	font-family:"Noteworthy";
+	color: #D13B49;
+	font: bold;
+	text-align:left;
+
+
 }
+
+p
+{
+	font-family:"Noteworthy";
+	font-size:20px;
+	color: #D13B49;
+
+}
+
+
 
 h2{
 
@@ -26,6 +42,18 @@ h5{
     display: block;
     height: 100px;
     width: 300px;
-    color: #774a27
+    color: #D13B49;
     text-align: center;
 }
+
+a:link {color:#D13B49;}      /* unvisited link */
+a:visited {color:#F9B372;}  /* visited link */
+a:hover {color:#A6C771;}  /* mouse over link */
+a:active {color:#A6C771;}  /* selected link */ 
+
+red #D13B49
+yellow #FFE24A
+orange #A6C771
+green #A6C771
+purple #C099BA
+white
