@@ -1,3 +1,4 @@
+
 body {
 	font-family: "Palatino Linotype", "Book Antiqua", Palatino , serif; 
 	color: black;
@@ -12,54 +13,79 @@ h1 {
 	text-align:left;
 }
 
-p
-{
+p{
 	font-family:"Noteworthy";
 	font-size: 1rem;
 	color: #D13B49;
 
 }
 
-
-
 h2{
-	font-size: 2.6rem;
+	font-size: 1.8rem;
+	font-family:"Noteworthy";
+	color: #D13B49;
+	font: bold;
+	text-align:left;
 }
 
 h3{
-	font-size: 2.2rem;
+	font-size: 1.8rem;
+	font-family:"Noteworthy";
+	color: #D13B49;
+	text-align:left;
 }
 
 h4{
 	font-size: 1.8rem;
+	font-family:"Noteworthy";
+	color: #D13B49;
+	text-align:left;
 }
 
 h5{
-	font-size: 1.4rem;
-	
+	font-size: 1.8rem;
+	font-family:"Noteworthy";
+	color: #D13B49;
+	text-align:left;
 }
+
+.text {
+    width: 100%;
+    color: #D13B49;
+    text-align: left;
+    background-color: #A6C771;
+    border-color: #D13B49;
+    border-style: double;
+    margin-top: 2rem;
+}
+
 .button {
     display: block;
     height: 50px;
-    width: 100px;
     color: #D13B49;
     text-align: center;
-    background-color: yellow;
+    margin: 1rem;
 }
+
 .footer {
-    position:absolute;
+    position:inherit;
     bottom:1rem;
     width: 100%;
-    background-color: red;
+    background-color: #D13B49;
     height: 5rem;
 }
+
 .header {
-    position:absolute;
-    top:1rem;
+    position:inherit;
     width: 100%;
-    background-color: red;
-    height: 7rem;
+    background-color: #D13B49;
+    height: 4.5rem;
 }
+
+nav {
+	margin: 1rem;
+}
+
 nav a:link{
 	display: inline-block;
 	background-color: #A6C771;
@@ -89,16 +115,21 @@ nav a:active {
 	text-decoration: none;
 }
 
+a:link {color:#D13B49;}      /* unvisited link */
+a:visited {color:#F9B372;}  /* visited link */
+a:hover {color:#A6C771;}  /* mouse over link */
+a:active {color:#A6C771;}  /* selected link */ 
+
 
 /*
-a:link {color:#D13B49;}      
-a:visited {color:#F9B372;}  
-a:hover {color:#A6C771;}  
-a:active {color:#A6C771;} 
-*/
+color palattes
+
 red #D13B49
 yellow #FFE24A
 orange #A6C771
 green #A6C771
 purple #C099BA
 white
+*/
+
+
