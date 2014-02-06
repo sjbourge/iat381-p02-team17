@@ -48,15 +48,15 @@ h5{
     position:absolute;
     bottom:1rem;
     width: 100%;
-    background-color: gray;
-    height: 10rem;
+    background-color: red;
+    height: 5rem;
 }
 .header {
     position:absolute;
     top:1rem;
     width: 100%;
-    background-color: gray;
-    height: 20rem;
+    background-color: red;
+    height: 5rem;
 }
 
 
