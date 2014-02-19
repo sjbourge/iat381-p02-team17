@@ -11,6 +11,11 @@
 
 }
 
+.col-1of4 {
+	width: 25%;
+
+}
+
 .grid:after {
 	content: "";
 	display: block;
@@ -39,3 +44,8 @@
 	}
 
 }
+
+@media (max-width: 480px){
+	.col-1of4 {
+		width: 100%;
+	}
