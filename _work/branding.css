@@ -27,8 +27,11 @@ p{
 	font-family:"Noteworthy";
 	font-size: 1rem;
 	color: black;
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> refs/heads/b1
 }
 
 =======
@@ -54,12 +57,32 @@ h3, h4, h5{
 
 .text {
     width: 100%;
+<<<<<<< HEAD
+=======
+    height: auto;
+>>>>>>> refs/heads/b1
     color: #D13B49;
     text-align: left;
     background-color: #A6C771;
     border-color: #D13B49;
     border-style: double;
     margin-top: 1rem;
+<<<<<<< HEAD
+=======
+    background-position: left;
+}
+
+.text2 {
+    width: auto;
+    height: auto;
+    color: #D13B49;
+    text-align: left;
+    background-color: #FFE24A;
+    border-color: #D13B49;
+    border-style: double;
+    margin-top: 1rem;
+    background-position: relative;
+>>>>>>> refs/heads/b1
 }
 
 .button {
@@ -93,7 +116,10 @@ h3, h4, h5{
 	padding-top: 5rem;
 
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> refs/heads/b1
 nav {
 	margin: 1rem;
 }
@@ -105,7 +131,11 @@ nav a:link{
 	padding: 1rem 1.25rem;
 	text-decoration: none;
 }
+<<<<<<< HEAD
 nav a, nav a:visited {
+=======
+nav a:visited {
+>>>>>>> refs/heads/b1
 	display: inline-block;
 	background-color: white;
 	color: #D13B49;
