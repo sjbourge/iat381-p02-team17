@@ -1,0 +1,158 @@
+
+body {
+	font-family: "Noteworthy", Palatino , serif; 
+	font-size: 1.5rem;
+	color: black;
+	background-color:#FCFBF2;
+	text-indent: 5rem;
+}
+
+h1 {
+	font-size: 3rem;
+<<<<<<< Updated upstream
+	font-family:"Noteworthy";
+	color: black;
+=======
+	font-family:"Britannic Bold";
+	color: #D13B49;
+>>>>>>> Stashed changes
+	font: bold;
+	text-align:left;	
+	margin-top: 10rem;
+
+}
+
+<<<<<<< Updated upstream
+p{
+	font-family:"Noteworthy";
+	font-size: 1rem;
+	color: black;
+}
+
+=======
+>>>>>>> Stashed changes
+h2{
+	font-size: 1.8rem;
+	font-family:"Britannic Bold";
+	color: #D13B49;
+	font: bold;
+	text-align:left;
+}
+
+h3, h4, h5{
+	font-family:"Britannic Bold";
+	color: #D13B49;
+	text-align:left;
+}
+
+.link {
+	font-size: 4rem;
+
+}
+
+.text {
+    width: 100%;
+    height: auto;
+    color: #D13B49;
+    text-align: left;
+    background-color: #A6C771;
+    border-color: #D13B49;
+    border-style: double;
+    margin-top: 1rem;
+    background-position: left;
+}
+
+.text2 {
+    width: auto;
+    height: auto;
+    color: #D13B49;
+    text-align: left;
+    background-color: #FFE24A;
+    border-color: #D13B49;
+    border-style: double;
+    margin-top: 1rem;
+    background-position: relative;
+}
+
+.button {
+    display: block;
+    height: 2rem;
+    color: #D13B49;
+    text-align: center;
+    margin: 1rem;
+}
+
+.footer {
+    position: relative;
+    color: white;
+    bottom:1rem;
+    width: 100%;
+    background-color: #9e4a0b;
+    height: 5rem;
+}
+
+.header {
+    position: relative;
+    color: white;
+    top:5rem;
+    width: 100%;
+    background-color: #9e4a0b;
+    height: 5rem;
+}
+
+
+.bodyContent {
+	padding-top: 5rem;
+
+}
+nav {
+	margin: 1rem;
+}
+
+nav a:link{
+	display: inline-block;
+	background-color: white;
+	color: #D13B49;
+	padding: 1rem 1.25rem;
+	text-decoration: none;
+}
+nav a:visited {
+	display: inline-block;
+	background-color: white;
+	color: #D13B49;
+	padding: 1rem 1.25rem;
+	text-decoration: none;
+}
+nav a:hover {
+	display: inline-block;
+	background-color: #c475ac;
+	color: #D13B49;
+	padding: 1rem 1.25rem;
+	text-decoration: none;
+}
+nav a:active {
+	display: inline-block;
+	background-color: gray;
+	color: #D13B49;
+	padding: 1rem 1.25rem;
+	text-decoration: none;
+}
+
+a:link {color:#D13B49;}      /* unvisited link */
+a:visited {color:#F9B372;}  /* visited link */
+a:hover {color:#A6C771;}  /* mouse over link */
+a:active {color:#A6C771;}  /* selected link */ 
+
+
+/*
+color palattes
+
+red #D13B49
+yellow #FFE24A
+orange #A6C771
+green #A6C771
+purple #C099BA
+white
+*/
+
+
