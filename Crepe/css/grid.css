@@ -1,0 +1,82 @@
+/* grid.css; defining grids for my site */
+
+[class*='col-']{
+	float: left;
+	padding: 0;
+	text-align:center;
+	margin-bottom: 2rem;
+}
+
+.col-1of4 {
+	width: 25%;
+}
+
+.col-1of6 {
+	width: 16.66%;
+
+}
+
+.col-1of2 {
+	width: 50%;
+
+}
+
+.col-1of3 {
+	width: 33.33%;
+}
+
+
+
+.col-3of4 {
+	width: 75%;
+}
+
+.col-4of6 {
+	width: 66.66%;
+}
+
+
+@media (max-width: 480px){
+	.col-1of6 {
+		width: 16.66%;
+	}
+
+
+
+.grid:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+*, *:after, *:before{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+@media (max-width: 800px){
+	.col-1of2 {
+		width: 100%;
+	}
+}
+
+
+
+@media (max-width: 480px){
+	.col-1of3 {
+		width: 100%;
+	}
+
+}
+
+@media (max-width: 480px){
+	.col-1of4 {
+		width: 100%;
+	}
+
+
+@media (max-width: 480px){
+	.col-3of4 {
+		width: 100%;
+	}
