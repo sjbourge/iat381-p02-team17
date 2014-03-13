@@ -12,14 +12,7 @@ $(document).ready( function() {
 	$("a[href$='.html']").click(function(clickEvent){
 
 
-	clickEvent.preventDefault();
 
-	//make a variable called file
-	// jquery go get it and get the attribute for href (the link value)
-	var file = $(this).attr("href");
-	//$("title").html("info: "+file);
-
-	$("section#main").load(file+" #content");
 
 	});
 
