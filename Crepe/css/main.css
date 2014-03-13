@@ -28,13 +28,13 @@ form {
 }
 
 h1 {
-	font-size: 3em;
+	font-size: 3rem;
 	color: #D13B49;
 	font: bold;
 }
 
 p{
-	font-size: 1em;
+	font-size: 1rem;
 	color: #D13B49;
 }
 
@@ -47,6 +47,10 @@ h2{
 h3, h4, h5{
 	color: #D13B49;
 	text-align:left;
+}
+
+ul{
+	font-size: 1rem;
 }
 
 .link {
