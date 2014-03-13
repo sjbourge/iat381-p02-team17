@@ -8,12 +8,12 @@
     <title>Pollyanna's Crepes</title>
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/grid.css">
-      <a href="Home.html">
-    <img src="image/logo.png" alt="Logo" width="500" height=auto margin="50px"></a>
   
   </head>
   <body>
 
+  	<a href="Home.html">
+    <img src="image/logo.png" alt="Logo" width="500" height=auto margin="50px"></a>
 
     <header id="top">
 
@@ -41,66 +41,53 @@
     </header>
 
 
-<h2> Confirm Your Purchase</h2>
+		<h2> Confirm Your Purchase</h2>
 
-	<div class="col-1of2">
+			<div class="col-1of2">
+				<section class="text">
+					<form method="post" action="#" id="comments">
+						<p><label for="form-name">Full Name:</label>
+							<input type="text" id="form-name" name="form-name" placeholder="Your name"></p>
+						<p><label for="form-name">Adress:</label>
+							<input type="text" id="form-name" name="form-name" placeholder="Your address"></p>
+						<p><label for="form-name">Country:</label>
+							<input type="text" id="form-name" name="form-name" placeholder="Your Country"></p>
+						<p><label for="form-name">Postal Code:</label>
+							<input type="text" id="form-name" name="form-name" placeholder="Your Postal Code"></p>
+					</form>
+					    
+					<form name="myform" action="http://www.mydomain.com/myformhandler.cgi" method="POST">
+						<p>
+							<label for="form-name">Card Type:</label>
+						</p>
+							
+						<select name="mydropdown">
+							<option value="Visa">Visa</option>
+							<option value="Mastercard">MasterCard</option>
+							<option value="PayPal">PayPal</option>
+						</select>
+					</form>
 
-
-  		<section class="text">
-
-			<form method="post" action="#" id="comments">
-			
-				<p><label for="form-name">Full Name:</label>
-				    <input type="text" id="form-name" name="form-name" placeholder="Your name"></p>
-
-				<p><label for="form-name">Adress:</label>
-				    <input type="text" id="form-name" name="form-name" placeholder="Your address"></p>
-
-				<p><label for="form-name">Country:</label>
-				    <input type="text" id="form-name" name="form-name" placeholder="Your Country"></p>
-
-				<p><label for="form-name">Postal Code:</label>
-				    <input type="text" id="form-name" name="form-name" placeholder="Your Postal Code"></p>
-			</form>
-		    
-		    <form name="myform" action="http://www.mydomain.com/myformhandler.cgi" method="POST">
-				<p>
-					<label for="form-name">Card Type:</label>
-				</p>
-				
-				<select name="mydropdown">
-					<option value="Milk">Visa</option>
-					<option value="Cheese">MasterCard</option>
-					<option value="Bread">PayPal</option>
-				
-				</select>
-			</form>
-
-			<p>
-			 	<label for="form-name">Card Number:</label>
-			    <input type="text" id="form-name" name="form-name" placeholder="Card Number">
-			</p>
-						<h4> Total Purchase: $12.50 </h4>
-
-			<button type="button" name="refine" onclick="alert" style="font:1em Verdana, Arial, sans-serif; background:white; color: #D13B49">Confirm payment</button>
-</section>
-</div>
-
-
-<div class="col-1of2">
-<section class="text">
-
-		    <nav class="grid">
-	        	<div class="col-1of2">
-		        	<div align="right">
-		        		<img src="./photos/chocolateCrepe2.jpg" max width=130%>
+					<p>
+						<label for="form-name">Card Number:</label>
+						<input type="text" id="form-name" name="form-name" placeholder="Card Number">
+					</p>
+					<h4> Total Purchase: $12.50 </h4>
+					<button type="button" name="refine" onclick="alert" style="font:1em Verdana, Arial, sans-serif; background:white; color: #D13B49">Confirm payment</button>
+				</section>
+			</div>
+		<div class="col-1of2">
+			<section class="text">
+				<nav class="grid">
+				    <div class="col-1of2">
+					    <div align="right">
+					        <img src="./photos/chocolateCrepe2.jpg" max width=130%>
+						</div>
 					</div>
-				</div>
-		    </nav>
-	    </section>
-</div>
+				</nav>
+			</section>
+		</div>
+			
 	
-	
-
 	</body>
 </html>
