@@ -44,14 +44,31 @@
     <section="refine">
 
       <p>Refine your search results</p>
-      <form name="myform" action="http://www.mydomain.com/myformhandler.cgi" method="POST">
-      <label for="form-name">Calories:</label>
+      <p>
+        <form name="myform" action="http://www.mydomain.com/myformhandler.cgi" method="POST"></p>
+      <p><label for="form-name">Calories:</label>
       <select name="mydropdown">
       <option value="200">Under 200</option>
       <option value="300">Under 300</option>
       <option value="400">Under 400</option>
       <option value="500">Under 500</option>
       </select>
+    </p>
+
+
+      <p>
+<INPUT NAME="options" TYPE="CHECKBOX" VALUE="o2">
+  Vegetarian<BR>
+<INPUT NAME="options" TYPE="CHECKBOX" VALUE="o3">
+  Gluten Free<BR>
+<INPUT NAME="options" TYPE="CHECKBOX" VALUE="o4">
+  Whole Grain<BR>
+<INPUT NAME="options" TYPE="CHECKBOX" VALUE="o5">
+  Sort by Price<BR>
+<INPUT NAME="options" TYPE="CHECKBOX" VALUE="o6">
+  Sort by Ratings<BR></p>
+
+
       <button type="button" name="refine" onclick="alert" style="font:1em Verdana, Arial, sans-serif; background:white; color: #D13B49">Refresh</button>    
     </section>
 
