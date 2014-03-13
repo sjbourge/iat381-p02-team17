@@ -43,6 +43,14 @@
 	}
 
 }
+@media (max-width: 650px) {
+
+	.col-1of3 {
+		width: 100%;
+	}
+		.col-1of2 {
+		width: 100%;
+	}
 
 @media (max-width: 500px) {
 
